@@ -6,7 +6,7 @@ public class PlayerOneSelection {
     // declare some random value for a variable to hold response if user has selected player 1 as Human
     static int humanSelection = 5;
     // declare String player1's choice so we can use it later
-    static String player1Choice = "Paper";
+    static String playerOneChoice = "Paper";
 
     static void Player1Selection() {
 
@@ -20,11 +20,11 @@ public class PlayerOneSelection {
                     null, gameChoices,null);
             if (humanSelection == 0) {
                 // assign player1 value to be what user has selected, repeating for each option
-                player1Choice = "Rock";
+                playerOneChoice = "Rock";
             } else if (humanSelection == 1) {
-                player1Choice = "Paper";
+                playerOneChoice = "Paper";
             } else if (humanSelection == 2) {
-                player1Choice = "Scissors";
+                playerOneChoice = "Scissors";
             } else {
                 // if user clicks the close box on the player 1 choices (Rock, Paper or Scissors) dialog box then the game closes
                 System.exit(0);
